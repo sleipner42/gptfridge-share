@@ -1,4 +1,3 @@
-```markdown
 # GPTFRIDGE: AI-Powered Cooking Assistant
 
 Welcome to GPTFRIDGE, a React Native app that uses AI and image recognition to suggest recipes based on the ingredients you have at home.
