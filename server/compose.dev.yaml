@@ -1,0 +1,12 @@
+services:
+  backend:
+    build:
+        context: backend/
+    volumes:
+      - ./backend/src/:/app/src
+    env_file:
+      - .env
+  
+  db:
+    ports:
+      - 5432:5432
